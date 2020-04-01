@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h4 {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.container-fluid {
+    background-color: indigo;
+    z-index: 0;
+    padding-bottom: 0 !important;
+}
+
+.top-players {
+    display: flex;
+    padding-bottom: 1.5rem;
+    justify-content: center;
+}
+
+.top-players p {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.first-player,
+.second-player,
+.third-player {
+    flex: 3;
+    text-align: center;
+}
+
+.first-player .crown {
+    color: goldenrod;
+    min-width: 40px;
+    margin-bottom: 1rem;
+}
+
+
+/* .search-box-container {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fakebox {
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+    z-index: 2;
+} 
+
+.icon-span i {
+    color: white;
+    background: indigo;
+    border-radius: 200px !important;
+    padding: 10px;
+    font-size: small;
+}
+
+
+ .icon-span {
+    position: absolute;
+    top: 5px;
+    right: 45px;
+} 
+
+
+ .input-fi {
+    padding: 13px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    border: 0;
+} */
+
+.your-rank-section {
+    position: relative;
+    background-color: indigo;
+    z-index: -1;
+}
+
+.your-rank {
+    background-color: white;
+    border-radius: 3rem 3rem 0 0;
+    text-align: center;
+}
+
+.your-rank p {
+    color: indigo;
+    padding: 1rem;
+    font-weight: bolder;
+    border: 2px solid;
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+    opacity: 0.5;
+}
+
+.other-players-img {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    flex: 1;
+}
+
+.name-number {
+    flex: 2;
+    justify-content: center;
+    text-align: center;
+}
+
+.name-number * {
+    margin-top: 0.5rem;
+    overflow-x: hidden;
+}
+
+.overall-score * {
+    margin-top: 0.5rem;
+}
+
+.overall-score {
+    flex: 1;
+}
+
+.overall-score p {
+    color: indigo;
+}
+
+.other-section {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.imgs {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.another-img {
+    margin-left: 1rem;
+}
